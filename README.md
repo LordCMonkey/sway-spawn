@@ -1,13 +1,8 @@
 # Spawn
 
 Spawn is a lightweight utility for the [Sway](https://swaywm.org/) tiling window manager. It allows you to toggle specific applications to and from the scratchpad with a single keybinding, effectively creating "drop-down" terminals or quick-access windows for any program.
-
-## Features
-
-- **Toggle Visibility**: Instantly show or hide specific applications.
-- **Auto-Start**: Automatically launches the application if it's not running.
-- **Smart Focus**: Brings the window to focus if it's visible but not active.
-- **Flexible Configuration**: Supports matching by Title, AppId, or Class.
+[Sway-scratchpad](https://github.com/emilyyyylime/sway-scratchpad) looks like it is a more feature rich shell script (haven't tried though). Also [sway-descratch](https://codeberg.org/scip/sway-descratch) for a version written in go using rofi to select windows. [sway-scratch](https://github.com/b0o/sway-scratch) is another script.
+Main difference to others seems like my version uses a configuration file for specifying window actions.
 
 ## Getting Started
 
